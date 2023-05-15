@@ -4,29 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MinhaFarmacia"
+    tools:context=".MeuCarrinho"
     android:background="@drawable/background">
 
+
     <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="237dp"
-        android:layout_height="112dp"
-        app:srcCompat="@drawable/farmacia"
+        android:id="@+id/imageView7"
+        android:layout_width="193dp"
+        android:layout_height="87dp"
+        app:srcCompat="@drawable/carrinho"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="91dp" />
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="100dp" />
 
     <TextView
-        android:id="@+id/textView2"
-        android:layout_width="285dp"
+        android:id="@+id/textView3"
+        android:layout_width="237dp"
         android:layout_height="44dp"
-        android:text="Minha Farmácia"
+        android:text="Meu carrinho"
         android:textAlignment="center"
         android:textColor="@color/white"
         android:textSize="14pt"
         android:textStyle="bold"
-        android:visibility="visible"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="85dp"
-        tools:layout_editor_absoluteY="37dp" />
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="39dp"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
