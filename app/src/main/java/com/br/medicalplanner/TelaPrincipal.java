@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 
 public class TelaPrincipal extends AppCompatActivity {
@@ -13,6 +14,7 @@ public class TelaPrincipal extends AppCompatActivity {
     private ImageView ImageView2;
     private ImageView ImageView3;
     private ImageView ImageView4;
+    private Button button2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,6 +46,13 @@ public class TelaPrincipal extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(TelaPrincipal.this, FarmaciasProximas.class);
+                startActivity(intent);
+            }
+        });
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(TelaPrincipal.this, FarmaciaPopular.class);
                 startActivity(intent);
             }
         });
