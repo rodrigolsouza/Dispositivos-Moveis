@@ -13,6 +13,9 @@
         android:theme="@style/Theme.MedicalPlanner"
         tools:targetApi="31">
         <activity
+            android:name=".FarmaciaPopular"
+            android:exported="false" />
+        <activity
             android:name=".FarmaciasProximas"
             android:exported="false" />
         <activity
