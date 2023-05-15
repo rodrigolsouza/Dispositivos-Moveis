@@ -4,4 +4,5 @@
     <string name="text_cadastro">Cadastre-se aqui</string>
     <string name="title_activity_form_cadastro">FormCadastro</string>
     <string name="title_cadastro">Cadastre-se</string>
+    <string name="title_cadastro_medicamento">Cadastro de medicamento</string>
 </resources>

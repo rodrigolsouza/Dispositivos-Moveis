@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
+
     <style name="ConteinerComponents">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">250dp</item>
@@ -31,6 +32,12 @@
         <item name="android:background">@drawable/button</item>
     </style>
 
+    <style name="ConteinerCadstroRemedio">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">450dp</item>
+        <item name="android:background">@drawable/conteiner_components</item>
+        <item name="android:layout_margin">20dp</item>
+    </style>
 
 
 
