@@ -13,8 +13,8 @@
         android:layout_height="112dp"
         app:srcCompat="@drawable/farmacia"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="91dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="125dp" />
 
     <TextView
         android:id="@+id/textView2"
