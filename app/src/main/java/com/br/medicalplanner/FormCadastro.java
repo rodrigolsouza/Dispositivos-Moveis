@@ -9,6 +9,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class FormCadastro extends AppCompatActivity {
 
@@ -38,6 +41,19 @@ public class FormCadastro extends AppCompatActivity {
 //            }
 //        });
 
+    //----------------------peu ta modificando essa parte--------------------------------------
+//        public void button(cadastro) {
+//            String email = edit_Email.getText().toString();
+//            String password = edit_Password.getText().toString();
+//            FirebaseAuth mAuth = FirebaseAuth.getInstance();
+//            mAuth.createUserWithEmailAndPassword(email, password)
+//                    .addOnCompleteListener(this, task -> {
+//                        String msg = task.isSuccessful() ? "SIGN UP OK!":
+//                                "SIGN UP ERROR!";
+//                        Toast.makeText(FormCadastro.this, msg,
+//                                Toast.LENGTH_SHORT).show();
+//                    });
+//        }
 
 //
       }
