@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "165901349564",
+    "project_id": "projetoalfa-6bbc4",
+    "storage_bucket": "projetoalfa-6bbc4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165901349564:android:251207297f61ceb40dd6b9",
+        "android_client_info": {
+          "package_name": "com.br.medicalplanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165901349564-sepeuboaatci6q0mulqj49462ullfq7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQUD6UdzKVS8-hjalIS1BjblKWmUN6Zj8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165901349564-sepeuboaatci6q0mulqj49462ullfq7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

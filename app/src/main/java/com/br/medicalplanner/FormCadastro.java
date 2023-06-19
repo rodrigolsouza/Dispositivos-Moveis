@@ -20,16 +20,16 @@ public class FormCadastro extends AppCompatActivity {
 
     public EditText edEmail;
     public EditText edSenha;
-    private Object view;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_cadastro);
-        edEmail =findViewById(R.id.edit_email);
-        edSenha=findViewById(R.id.edit_senha);
-         ActionBar ab = getSupportActionBar();
-         ab.setDisplayHomeAsUpEnabled(true);
+        edEmail = findViewById(R.id.edit_email);
+        edSenha = findViewById(R.id.edit_senha);
+        ActionBar ab = getSupportActionBar();
+        ab.setDisplayHomeAsUpEnabled(true);
+    }
 //
 //        IniciarComponentes();
 //        cadastro.setOnClickListener(new View.OnClickListener() {
@@ -62,7 +62,7 @@ public class FormCadastro extends AppCompatActivity {
         }
 
 //
-      }
+
 //
 //    private void IniciarComponentes(){
 //        cadastro=findViewById(R.id.botao_cadastrar_remedio);
