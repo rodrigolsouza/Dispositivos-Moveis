@@ -50,9 +50,11 @@
         app:layout_constraintEnd_toEndOf="@id/conteinerComponents"
         app:layout_constraintTop_toBottomOf="@id/edit_email"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <Button
         style="@style/Button"
+        android:id="@+id/entrar"
         android:text="@string/entrar"
+        android:onClick="buttonSignInClick"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/edit_senha"

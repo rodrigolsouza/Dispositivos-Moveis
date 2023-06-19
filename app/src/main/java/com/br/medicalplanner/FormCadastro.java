@@ -59,6 +59,7 @@ public class FormCadastro extends AppCompatActivity {
                         Toast.makeText(FormCadastro.this, msg,
                                 Toast.LENGTH_SHORT).show();
                     });
+            telaMudar(view);
         }
 
 //
