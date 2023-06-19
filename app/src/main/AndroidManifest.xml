@@ -16,7 +16,7 @@
         android:theme="@style/Theme.AppCompat.Light"
         tools:targetApi="31">
         <activity
-            android:name=".novo_alarme"
+            android:name=".Novo_alarme"
             android:exported="false" />
         <!-- <activity -->
         <!-- android:name=".Principal" -->

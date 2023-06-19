@@ -20,7 +20,7 @@ public class alarmes extends AppCompatActivity {
         buttonNovoAlarme.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(alarmes.this, novo_alarme.class);
+                Intent intent = new Intent(alarmes.this, Novo_alarme.class);
                 startActivity(intent);
             }
         });

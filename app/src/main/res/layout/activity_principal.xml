@@ -79,6 +79,7 @@
         android:layout_marginEnd="44dp"
         android:onClick="telaAgendar"
         android:text="Agendar novo medicamento"
+        android:background="@color/green2"
         android:textColor="@color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -87,7 +88,7 @@
     <Button
         android:id="@+id/button2"
         android:layout_width="328dp"
-        android:layout_height="39dp"
+        android:layout_height="55dp"
         android:layout_marginTop="64dp"
         android:layout_marginEnd="44dp"
         android:background="@color/red_ligth"
@@ -99,11 +100,11 @@
 
     <Button
         android:id="@+id/buttonLogOff"
-        android:layout_width="324dp"
-        android:layout_height="81dp"
-        android:layout_marginTop="120dp"
+        android:layout_width="328dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="130dp"
         android:layout_marginEnd="44dp"
-        android:background="@color/blue_royal"
+        android:background="@color/brown"
         android:onClick="buttonSignOutClick"
         android:text="Sair"
         android:textColor="@color/white"

@@ -6,18 +6,15 @@ import android.os.Bundle;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Intent;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.TimePicker;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import java.util.Calendar;
 
 
-public class novo_alarme extends AppCompatActivity {
+public class Novo_alarme extends AppCompatActivity {
     TimePicker alarmTimePicker;
     PendingIntent pendingIntent;
     AlarmManager alarmManager;
@@ -37,7 +34,7 @@ public class novo_alarme extends AppCompatActivity {
     public void OnToggleClicked(View view) {
         long time;
         if (((ToggleButton) view).isChecked()) {
-            Toast.makeText(novo_alarme.this, "ALARM ON", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Novo_alarme.this, "ALARM ON", Toast.LENGTH_SHORT).show();
             Calendar calendar = Calendar.getInstance();
 
             // calender is called to get current time in hour and minute
@@ -64,7 +61,7 @@ public class novo_alarme extends AppCompatActivity {
             // alarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis() + (time * 1000), pendingIntent);
         } else {
             alarmManager.cancel(pendingIntent);
-            Toast.makeText(novo_alarme.this, "ALARM OFF", Toast.LENGTH_SHORT).show();
+            Toast.makeText(Novo_alarme.this, "ALARM OFF", Toast.LENGTH_SHORT).show();
         }
     }
 }
