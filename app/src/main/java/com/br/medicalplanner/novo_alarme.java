@@ -46,10 +46,10 @@ public class novo_alarme extends AppCompatActivity {
 
             // using intent i have class AlarmReceiver class which inherits
             // BroadcastReceiver
-            Intent intent = new Intent(this, AlarmReceiver.class);
+            Intent intent = new Intent(this, ReceptorAlarme.class);
 
             // we call broadcast using pendingIntent
-            pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0);
+            pendingIntent = PendingIntent.getBroadcast(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 
             time = (calendar.getTimeInMillis() - (calendar.getTimeInMillis() % 60000));
             if (System.currentTimeMillis() > time) {
