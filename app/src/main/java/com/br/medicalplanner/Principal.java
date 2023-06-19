@@ -27,6 +27,8 @@ public class Principal extends AppCompatActivity {
         localizacao=findViewById(R.id.localizacao);
         carrinho=findViewById(R.id.carrinho);
 
+
+
         despertador.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -54,11 +56,11 @@ public class Principal extends AppCompatActivity {
                 Intent intent = new Intent(Principal.this, FarmaciasProximas.class);
                 startActivity(intent);
             }
+
         });
 
     }
-    public void telaAgendar(View view)
-    {
+    public void telaAgendar(View view) {
         Intent intent = new Intent(this, CadastroRemedio.class);
         startActivity(intent);
     }
