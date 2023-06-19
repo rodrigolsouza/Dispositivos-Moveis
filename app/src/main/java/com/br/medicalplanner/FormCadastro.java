@@ -9,6 +9,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
@@ -17,13 +18,18 @@ public class FormCadastro extends AppCompatActivity {
 
     private AppCompatButton cadastro;
 
+    public EditText edEmail;
+    public EditText edSenha;
+    private Object view;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_form_cadastro);
-
-        ActionBar ab = getSupportActionBar();
-        ab.setDisplayHomeAsUpEnabled(true);
+        edEmail =findViewById(R.id.edit_email);
+        edSenha=findViewById(R.id.edit_senha);
+         ActionBar ab = getSupportActionBar();
+         ab.setDisplayHomeAsUpEnabled(true);
 //
 //        IniciarComponentes();
 //        cadastro.setOnClickListener(new View.OnClickListener() {
@@ -42,18 +48,18 @@ public class FormCadastro extends AppCompatActivity {
 //        });
 
     //----------------------peu ta modificando essa parte--------------------------------------
-//        public void button(cadastro) {
-//            String email = edit_Email.getText().toString();
-//            String password = edit_Password.getText().toString();
-//            FirebaseAuth mAuth = FirebaseAuth.getInstance();
-//            mAuth.createUserWithEmailAndPassword(email, password)
-//                    .addOnCompleteListener(this, task -> {
-//                        String msg = task.isSuccessful() ? "SIGN UP OK!":
-//                                "SIGN UP ERROR!";
-//                        Toast.makeText(FormCadastro.this, msg,
-//                                Toast.LENGTH_SHORT).show();
-//                    });
-//        }
+        public void buttonSignUpClick(View view) {
+            String email = edEmail.getText().toString();
+            String senha = edSenha.getText().toString();
+            FirebaseAuth mAuth = FirebaseAuth.getInstance();
+            mAuth.createUserWithEmailAndPassword(email, senha)
+                    .addOnCompleteListener(this, task -> {
+                        String msg = task.isSuccessful() ? "SIGN UP OK!":
+                                "SIGN UP ERROR!";
+                        Toast.makeText(FormCadastro.this, msg,
+                                Toast.LENGTH_SHORT).show();
+                    });
+        }
 
 //
       }
